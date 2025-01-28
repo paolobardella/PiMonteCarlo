@@ -1,6 +1,8 @@
 %Estimate pi using a Monte Carlo approach
 clear;                          %clear 
-close;                          %close all figures
+close;       
+
+%close all figures
 NumSamples=1000;                    %Number of samples to be generated
 L=1;                                %Square side [A.U.]
 R=L/2;                              %Radius
