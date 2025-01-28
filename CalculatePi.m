@@ -2,7 +2,8 @@
 clear all;                          %clear 
 close all;                          %close all figures
 NumSamples=1000;                    %Number of samples to be generated
-L=1;                                %Square side [A.U.]
+L=1;      
+%Square side [A.U.]
 R=L/2;                              %Radius
 Inside=0;                           %Number of points inside the circle
 figure;                             %Open a new figure
